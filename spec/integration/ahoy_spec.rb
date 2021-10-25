@@ -12,7 +12,7 @@ describe 'api/v1/ahoy_controller', type: :request do
                properties: {
                  title: { type: :string },
                  message: { type: :string },
-                 status: { type: :id }
+                 status: { type: :string }
                },
                required: %w[title message status]
         let(:api_key) { 'foobar' }

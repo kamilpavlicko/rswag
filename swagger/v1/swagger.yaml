@@ -24,7 +24,7 @@ paths:
                   message:
                     type: string
                   status:
-                    type: id
+                    type: string
                 required:
                 - title
                 - message
