@@ -32,10 +32,10 @@ paths:
         '401':
           description: invalid token
 servers:
-- url: http://{defaultHost}
+- url: https://{defaultHost}
   variables:
     defaultHost:
-      default: localhost:3000
+      default: rswag-test.herokuapp.com
 components:
   securitySchemes:
     api_key:

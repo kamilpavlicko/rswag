@@ -24,10 +24,10 @@ RSpec.configure do |config|
       paths: {},
       servers: [
         {
-          url: 'http://{defaultHost}',
+          url: 'https://{defaultHost}',
           variables: {
             defaultHost: {
-              default: ENV['SERVER_URL']
+              default: 'rswag-test.herokuapp.com'
             }
           }
         }
