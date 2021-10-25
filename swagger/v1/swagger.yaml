@@ -1,0 +1,44 @@
+---
+openapi: 3.0.1
+info:
+  title: API V1
+  version: v1
+paths:
+  "/api/v1/ahoy":
+    get:
+      summary: Get Ahoy Heartwarming Welcome
+      tags:
+      - Ahoy
+      security:
+      - api_key: []
+      responses:
+        '200':
+          description: Ahoy index
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  title:
+                    type: string
+                  message:
+                    type: string
+                  status:
+                    type: id
+                required:
+                - title
+                - message
+                - status
+        '401':
+          description: invalid token
+servers:
+- url: http://{defaultHost}
+  variables:
+    defaultHost:
+      default: localhost:3000
+components:
+  securitySchemes:
+    api_key:
+      type: apiKey
+      name: api_key
+      in: query

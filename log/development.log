@@ -1,0 +1,346 @@
+Started GET "/" for 127.0.0.1 at 2021-10-22 16:32:33 +0200
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/kamilpavlicko/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/kamilpavlicko/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.5ms | Allocations: 528)
+Completed 200 OK in 28ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 4600)
+
+
+Started GET "/api" for 127.0.0.1 at 2021-10-22 16:32:36 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/api"):
+  
+Started GET "/api-docs" for 127.0.0.1 at 2021-10-22 16:32:39 +0200
+Started GET "/api-docs/index.html" for 127.0.0.1 at 2021-10-22 16:32:39 +0200
+Started GET "/api-docs/swagger-ui.css" for 127.0.0.1 at 2021-10-22 16:32:39 +0200
+Started GET "/api-docs/swagger-ui-bundle.js" for 127.0.0.1 at 2021-10-22 16:32:39 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 127.0.0.1 at 2021-10-22 16:32:39 +0200
+Started GET "/api-docs/v1/swagger.yaml" for 127.0.0.1 at 2021-10-22 16:32:39 +0200
+Started GET "/api-docs/favicon-32x32.png" for 127.0.0.1 at 2021-10-22 16:32:39 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/v1/swagger.yaml"):
+  
+Started GET "/" for 127.0.0.1 at 2021-10-22 16:56:02 +0200
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/kamilpavlicko/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/kamilpavlicko/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.7ms | Allocations: 353)
+Completed 200 OK in 24ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 2672)
+
+
+Started GET "/swagger" for 127.0.0.1 at 2021-10-22 16:56:05 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/swagger"):
+  
+Started GET "/api-docs" for 127.0.0.1 at 2021-10-22 16:56:14 +0200
+Started GET "/api-docs/index.html" for 127.0.0.1 at 2021-10-22 16:56:14 +0200
+Started GET "/api-docs/swagger-ui.css" for 127.0.0.1 at 2021-10-22 16:56:14 +0200
+Started GET "/api-docs/swagger-ui-bundle.js" for 127.0.0.1 at 2021-10-22 16:56:14 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 127.0.0.1 at 2021-10-22 16:56:14 +0200
+Started GET "/api-docs/v1/swagger.yaml" for 127.0.0.1 at 2021-10-22 16:56:14 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/v1/swagger.yaml"):
+  
+Started GET "/" for 127.0.0.1 at 2021-10-22 17:58:49 +0200
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/kamilpavlicko/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/kamilpavlicko/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.8ms | Allocations: 353)
+Completed 200 OK in 17ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 2652)
+
+
+Started GET "/api-docs" for 127.0.0.1 at 2021-10-22 17:58:53 +0200
+Started GET "/api-docs/index.html" for 127.0.0.1 at 2021-10-22 17:58:53 +0200
+Started GET "/api-docs/swagger-ui.css" for 127.0.0.1 at 2021-10-22 17:58:53 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 127.0.0.1 at 2021-10-22 17:58:53 +0200
+Started GET "/api-docs/swagger-ui-bundle.js" for 127.0.0.1 at 2021-10-22 17:58:53 +0200
+Started GET "/api-docs/v1/swagger.yaml" for 127.0.0.1 at 2021-10-22 17:58:53 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/v1/swagger.yaml"):
+  
+Started GET "/api-docs/index.html" for 127.0.0.1 at 2021-10-22 17:58:56 +0200
+Started GET "/api-docs/swagger-ui.css" for 127.0.0.1 at 2021-10-22 17:58:56 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 127.0.0.1 at 2021-10-22 17:58:56 +0200
+Started GET "/api-docs/swagger-ui-bundle.js" for 127.0.0.1 at 2021-10-22 17:58:56 +0200
+Started GET "/api-docs/v1/swagger.yaml" for 127.0.0.1 at 2021-10-22 17:58:56 +0200
+Started GET "/api-docs/favicon-32x32.png" for 127.0.0.1 at 2021-10-22 17:58:56 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/v1/swagger.yaml"):
+  
+Started GET "/api-docs/index.html" for 127.0.0.1 at 2021-10-22 17:58:59 +0200
+Started GET "/api-docs/swagger-ui.css" for 127.0.0.1 at 2021-10-22 17:58:59 +0200
+Started GET "/api-docs/swagger-ui-bundle.js" for 127.0.0.1 at 2021-10-22 17:58:59 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 127.0.0.1 at 2021-10-22 17:58:59 +0200
+Started GET "/api-docs/favicon-32x32.png" for 127.0.0.1 at 2021-10-22 17:58:59 +0200
+Started GET "/api-docs/v1/swagger.yaml" for 127.0.0.1 at 2021-10-22 17:58:59 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/v1/swagger.yaml"):
+  
+Started GET "/" for ::1 at 2021-10-22 21:16:02 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/kamilpavlicko/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/kamilpavlicko/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.0ms | Allocations: 353)
+Completed 200 OK in 16ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 2652)
+
+
+Started GET "/api-docs" for ::1 at 2021-10-22 21:16:09 +0200
+Started GET "/api-docs/index.html" for ::1 at 2021-10-22 21:16:09 +0200
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2021-10-22 21:16:09 +0200
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2021-10-22 21:16:09 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2021-10-22 21:16:09 +0200
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2021-10-22 21:16:09 +0200
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2021-10-22 21:16:09 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/v1/swagger.yaml"):
+  
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2021-10-22 21:16:14 +0200
+Started GET "/api-docs/swagger-ui-bundle.js.map" for ::1 at 2021-10-22 21:16:14 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js.map" for ::1 at 2021-10-22 21:16:14 +0200
+Started GET "/api-docs/swagger-ui.css.map" for ::1 at 2021-10-22 21:16:14 +0200
+Started GET "/api-docs/index.html" for ::1 at 2021-10-22 21:16:43 +0200
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2021-10-22 21:16:43 +0200
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2021-10-22 21:16:43 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2021-10-22 21:16:43 +0200
+Started GET "/api-docs/swagger-ui.css.map" for ::1 at 2021-10-22 21:16:43 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js.map" for ::1 at 2021-10-22 21:16:43 +0200
+Started GET "/api-docs/swagger-ui-bundle.js.map" for ::1 at 2021-10-22 21:16:43 +0200
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2021-10-22 21:16:43 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/v1/swagger.yaml"):
+  
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2021-10-22 21:16:43 +0200
+Started GET "/api-docs/index.html" for ::1 at 2021-10-22 21:16:44 +0200
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2021-10-22 21:16:44 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2021-10-22 21:16:44 +0200
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2021-10-22 21:16:44 +0200
+Started GET "/api-docs/swagger-ui.css.map" for ::1 at 2021-10-22 21:16:44 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js.map" for ::1 at 2021-10-22 21:16:44 +0200
+Started GET "/api-docs/swagger-ui-bundle.js.map" for ::1 at 2021-10-22 21:16:44 +0200
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2021-10-22 21:16:44 +0200
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2021-10-22 21:16:44 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/v1/swagger.yaml"):
+  
+Started GET "/api-docs/index.html" for ::1 at 2021-10-22 21:17:42 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/index.html"):
+  
+Started GET "/api-docs/index.html" for ::1 at 2021-10-22 21:17:43 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/index.html"):
+  
+Started GET "/api-docs/index.html" for ::1 at 2021-10-22 21:18:13 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/index.html"):
+  
+Started GET "/api-docs/index.html" for ::1 at 2021-10-22 21:18:14 +0200
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2021-10-22 21:18:14 +0200
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2021-10-22 21:18:14 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2021-10-22 21:18:14 +0200
+Started GET "/api-docs/swagger-ui.css.map" for ::1 at 2021-10-22 21:18:14 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js.map" for ::1 at 2021-10-22 21:18:14 +0200
+Started GET "/api-docs/swagger-ui-bundle.js.map" for ::1 at 2021-10-22 21:18:14 +0200
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2021-10-22 21:18:14 +0200
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2021-10-22 21:18:14 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/v1/swagger.yaml"):
+  
+Started GET "/api-docs/index.html" for ::1 at 2021-10-22 21:18:16 +0200
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2021-10-22 21:18:16 +0200
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2021-10-22 21:18:16 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2021-10-22 21:18:16 +0200
+Started GET "/api-docs/swagger-ui.css.map" for ::1 at 2021-10-22 21:18:16 +0200
+Started GET "/api-docs/swagger-ui-bundle.js.map" for ::1 at 2021-10-22 21:18:16 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js.map" for ::1 at 2021-10-22 21:18:16 +0200
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2021-10-22 21:18:16 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/v1/swagger.yaml"):
+  
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2021-10-22 21:18:16 +0200
+Started GET "/asdasd" for ::1 at 2021-10-22 21:18:19 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/asdasd"):
+  
+Started GET "/asdasd" for ::1 at 2021-10-22 21:29:34 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/asdasd"):
+  
+Started GET "/api-docs/index.html" for ::1 at 2021-10-22 21:29:40 +0200
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2021-10-22 21:29:40 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2021-10-22 21:29:40 +0200
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2021-10-22 21:29:40 +0200
+Started GET "/api-docs/swagger-ui.css.map" for ::1 at 2021-10-22 21:29:40 +0200
+Started GET "/api-docs/swagger-ui-bundle.js.map" for ::1 at 2021-10-22 21:29:41 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js.map" for ::1 at 2021-10-22 21:29:41 +0200
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2021-10-22 21:29:41 +0200
+MiniProfiler storage failure: comparison of String with 200 failed
+Started GET "/api-docs/" for ::1 at 2021-10-22 21:29:44 +0200
+Started GET "/api-docs/index.html" for ::1 at 2021-10-22 21:29:44 +0200
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2021-10-22 21:29:44 +0200
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2021-10-22 21:29:44 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2021-10-22 21:29:44 +0200
+Started GET "/api-docs/swagger-ui.css.map" for ::1 at 2021-10-22 21:29:44 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js.map" for ::1 at 2021-10-22 21:29:44 +0200
+Started GET "/api-docs/swagger-ui-bundle.js.map" for ::1 at 2021-10-22 21:29:44 +0200
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2021-10-22 21:29:45 +0200
+MiniProfiler storage failure: comparison of String with 200 failed
+Started GET "/api-docs/index.html" for ::1 at 2021-10-22 22:10:12 +0200
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2021-10-22 22:10:12 +0200
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2021-10-22 22:10:12 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2021-10-22 22:10:12 +0200
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2021-10-22 22:10:12 +0200
+MiniProfiler storage failure: comparison of String with 200 failed
+Started GET "/api-docs/swagger/v1/" for ::1 at 2021-10-22 22:10:21 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/swagger/v1"):
+  
+Started GET "/api-docs/swagger/v1/swagger.yaml" for ::1 at 2021-10-22 22:10:42 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/swagger/v1/swagger.yaml"):
+  
+Started GET "/api-docs/index.html" for ::1 at 2021-10-22 22:10:47 +0200
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2021-10-22 22:10:47 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2021-10-22 22:10:47 +0200
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2021-10-22 22:10:47 +0200
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2021-10-22 22:10:50 +0200
+Started GET "/api-docs/swagger-ui-bundle.js.map" for ::1 at 2021-10-22 22:10:50 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js.map" for ::1 at 2021-10-22 22:10:50 +0200
+Started GET "/api-docs/swagger-ui.css.map" for ::1 at 2021-10-22 22:10:50 +0200
+Started GET "/api-docs/index.html" for ::1 at 2021-10-22 22:10:51 +0200
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2021-10-22 22:10:51 +0200
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2021-10-22 22:10:51 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2021-10-22 22:10:51 +0200
+Started GET "/api-docs/swagger-ui.css.map" for ::1 at 2021-10-22 22:10:51 +0200
+Started GET "/api-docs/swagger-ui-bundle.js.map" for ::1 at 2021-10-22 22:10:51 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js.map" for ::1 at 2021-10-22 22:10:51 +0200
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2021-10-22 22:10:51 +0200
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2021-10-22 22:10:51 +0200
+MiniProfiler storage failure: comparison of String with 200 failed
+Started GET "/api-docs/index.html" for ::1 at 2021-10-22 22:10:58 +0200
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2021-10-22 22:10:58 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2021-10-22 22:10:58 +0200
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2021-10-22 22:10:58 +0200
+Started GET "/api-docs/swagger-ui.css.map" for ::1 at 2021-10-22 22:10:59 +0200
+Started GET "/api-docs/swagger-ui-bundle.js.map" for ::1 at 2021-10-22 22:10:59 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js.map" for ::1 at 2021-10-22 22:10:59 +0200
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2021-10-22 22:10:59 +0200
+MiniProfiler storage failure: comparison of String with 200 failed
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2021-10-22 22:10:59 +0200
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2021-10-22 22:11:14 +0200
+MiniProfiler storage failure: comparison of String with 200 failed
+Started GET "/" for 127.0.0.1 at 2021-10-25 11:06:29 +0200
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/kamilpavlicko/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/kamilpavlicko/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.9ms | Allocations: 353)
+Completed 200 OK in 26ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 2792)
+
+
+Started GET "/api/v1/ahoy" for 127.0.0.1 at 2021-10-25 11:06:35 +0200
+  
+ActionController::RoutingError (uninitialized constant AhoyController):
+  
+Started GET "/api/v1/ahoy.html" for 127.0.0.1 at 2021-10-25 11:06:43 +0200
+  
+ActionController::RoutingError (uninitialized constant AhoyController):
+  
+Started GET "/api/v1/ahoy" for 127.0.0.1 at 2021-10-25 11:06:53 +0200
+  
+ActionController::RoutingError (uninitialized constant AhoyController):
+  
+Started GET "/api/v1/ahoy" for 127.0.0.1 at 2021-10-25 11:07:47 +0200
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::AhoyController#index as HTML
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1175)
+
+
+Started GET "/api/v1/ahoy" for 127.0.0.1 at 2021-10-25 11:07:48 +0200
+Processing by Api::V1::AhoyController#index as HTML
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 226)
+
+
+Started GET "/api/v1/ahoy" for 127.0.0.1 at 2021-10-25 11:42:59 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::AhoyController#index as HTML
+Started GET "/api-docs" for 127.0.0.1 at 2021-10-25 11:43:01 +0200
+Started GET "/api-docs/index.html" for 127.0.0.1 at 2021-10-25 11:43:01 +0200
+Started GET "/api-docs/swagger-ui.css" for 127.0.0.1 at 2021-10-25 11:43:01 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 127.0.0.1 at 2021-10-25 11:43:01 +0200
+Started GET "/api-docs/swagger-ui-bundle.js" for 127.0.0.1 at 2021-10-25 11:43:01 +0200
+Started GET "/api-docs/favicon-32x32.png" for 127.0.0.1 at 2021-10-25 11:43:01 +0200
+Started GET "/api-docs/v1/swagger.yaml" for 127.0.0.1 at 2021-10-25 11:43:01 +0200
+MiniProfiler storage failure: comparison of String with 200 failed
+Completed 401 Unauthorized in 69591ms (ActiveRecord: 0.0ms | Allocations: 5154288)
+
+
+Started GET "/api-docs/index.html" for 127.0.0.1 at 2021-10-25 11:44:28 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/api-docs/swagger-ui.css" for 127.0.0.1 at 2021-10-25 11:44:28 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 127.0.0.1 at 2021-10-25 11:44:28 +0200
+Started GET "/api-docs/swagger-ui-bundle.js" for 127.0.0.1 at 2021-10-25 11:44:28 +0200
+Started GET "/api-docs/v1/swagger.yaml" for 127.0.0.1 at 2021-10-25 11:44:29 +0200
+Started GET "/api-docs/favicon-32x32.png" for 127.0.0.1 at 2021-10-25 11:44:29 +0200
+MiniProfiler storage failure: comparison of String with 200 failed
+Started GET "/api-docs/index.html" for 127.0.0.1 at 2021-10-25 11:44:53 +0200
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/api-docs/swagger-ui.css" for 127.0.0.1 at 2021-10-25 11:44:53 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for 127.0.0.1 at 2021-10-25 11:44:53 +0200
+Started GET "/api-docs/swagger-ui-bundle.js" for 127.0.0.1 at 2021-10-25 11:44:53 +0200
+Started GET "/api-docs/v1/swagger.yaml" for 127.0.0.1 at 2021-10-25 11:44:53 +0200
+Started GET "/api-docs/favicon-32x32.png" for 127.0.0.1 at 2021-10-25 11:44:53 +0200
+MiniProfiler storage failure: comparison of String with 200 failed
+Started GET "/sockjs-node" for 127.0.0.1 at 2021-10-25 11:45:22 +0200
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/sockjs-node"):
+  
+Started GET "/sockjs-node" for 127.0.0.1 at 2021-10-25 11:45:23 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/sockjs-node"):
+  
+Started GET "/sockjs-node" for 127.0.0.1 at 2021-10-25 11:45:24 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/sockjs-node"):
+  
+Started GET "/signin" for ::1 at 2021-10-25 11:45:26 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/signin"):
+  
+Started GET "/signin" for ::1 at 2021-10-25 11:45:27 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/signin"):
+  
+Started GET "/" for ::1 at 2021-10-25 11:45:29 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/kamilpavlicko/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/kamilpavlicko/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 13.4ms | Allocations: 231)
+Completed 200 OK in 32ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 1860)
+
+
+Started GET "/api-doce" for ::1 at 2021-10-25 11:45:34 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/api-doce"):
+  
+Started GET "/api-docs" for ::1 at 2021-10-25 11:45:37 +0200
+Started GET "/api-docs/index.html" for ::1 at 2021-10-25 11:45:37 +0200
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2021-10-25 11:45:37 +0200
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2021-10-25 11:45:37 +0200
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2021-10-25 11:45:37 +0200
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2021-10-25 11:45:37 +0200
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2021-10-25 11:45:37 +0200
+MiniProfiler storage failure: comparison of String with 200 failed
+Started GET "/api/v1/ahoy" for ::1 at 2021-10-25 11:45:41 +0200
+Processing by Api::V1::AhoyController#index as JSON
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 233)
+
+
+Started GET "/api/v1/ahoy?api_key=[FILTERED]" for ::1 at 2021-10-25 11:45:50 +0200
+Processing by Api::V1::AhoyController#index as JSON
+  Parameters: {"api_key"=>"[FILTERED]"}
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 241)
+
+
